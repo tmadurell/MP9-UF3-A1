@@ -27,3 +27,11 @@ Per transformar in 'int' en un 'byte[]' apliqueu el següent:
 int nombre = ByteBuffer.wrap(data).getInt(); //data és l'array de bytes
 byte[] resposta = ByteBuffer.allocate(4).putInt(num).array(); //num és un int
 ```
+
+>**Tasca 3 (Multicast)**  
+> Crea un servidor multicast que emeti paraules aleatòries agafades d'una llista.  
+> Crear un client que es connecti a aquest servei multicast i imprimeixi les paraules  
+> amb el número de vegades que han sortit o van sortint.
+>**Tasca 4 (Multicast)**  
+> Crea un servidor multicast que emeti frases aleatòries agafades d'una llista
+> Crear un client que es connecti a aquest servei multicast i imprimeixi les frases continguin més de 8 paraules.
